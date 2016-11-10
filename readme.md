@@ -2,7 +2,6 @@ What's new:
 - Created Featured Pokemon section
 - Just used the text from their OU analysis and art from Smeargle's Studio
 - Updated the RMT badge section.
-- 
 
 From v2:
 - Completely re-did the design template
@@ -18,7 +17,6 @@ Added new slider code
 
 Badge Selector
 - this still needs some work. It flows awkwardly and might be sparse content-wise
-- 
 
 From v1:
 

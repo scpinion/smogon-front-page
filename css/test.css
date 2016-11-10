@@ -1,0 +1,172 @@
+h1 {
+  color: #6363B0;
+  font-weight: bold !important; /*needed to overwrite w3.css stuff*/
+}
+.badge-nav-header {
+  font-size: 1.5em;
+}
+.badge-nav-header a {
+  text-decoration: none;
+}
+.smogon-logo {
+  height: 170px;
+}
+
+.smogon-purple {
+  color:#fff!important;
+  background-color:#6363B0!important;
+}
+
+.smogon-purple-hover:hover {
+  color: #fff !important;
+  background-color:#202072 !important;
+}
+
+/* Slider */
+.gallery {
+  margin: 5% 30px;
+}
+
+.gallery-cell {
+  width: 66%;
+  margin-right: 10px;
+  counter-increment: gallery-cell;
+  text-align: center;
+  background-color: rgba(43, 43, 85, 0.1);
+}
+
+.gallery-cell img {
+  max-height: 300px;
+  width: 90%;
+}
+
+.gallery-cell p {
+  width: 100%;
+  background-color: #4f4f75;
+  color: #fff;
+  padding: 10px 15px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+
+/* Badge Selector for Recent Upadtes */
+.badge {
+  height: 20px;
+  width: auto;
+}
+
+.site-section {
+  width: 100%;
+  
+}
+.section {
+  font-size: 0.9em;
+  font-weight: bold;
+  margin-top: 0.3em;
+}
+.detail {
+  font-size: 0.8em;
+}
+.om-image {
+  max-height: 100px;
+}
+
+/* Lower Content Blocks */
+.lower-content {
+  margin-top: 3em;
+}
+
+/* PS Ranks */
+#ranks-title, #stats-title {
+    margin: 0.7em 0em;
+    text-align: center;
+}
+#ps-standings-container {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 300px;
+    background: #ccc;
+}
+#ps-standings {
+    font-size: 0.85em;
+    width: 100%;
+    border-collapse:separate;
+    border-spacing: 2px 2px;
+}
+.head {
+    padding: 3px;
+    background: #fff;
+    font-weight: bold;
+}
+.cell {
+    padding: 3px;
+    background: #fff;
+}
+.rank {
+    text-align: center;
+}
+.username, .elo, .gxe {
+    text-align: center;
+}
+
+/* Stats */
+#stats {
+	max-height: 285px;
+	overflow: hidden;
+}
+.large-usage {
+    width: 115px;
+    height: 115px;
+    margin: 2.5px;
+    float: left;
+    text-align: center;
+    background-color: rgba(43, 43, 85, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+.large-usage img {
+    max-height: 90%;
+    width: auto;
+}
+.large-usage div {
+    position: absolute;
+    bottom: 4px;
+    font-size: 1em;
+    width: 100%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.small-usage {
+    width: 55px;
+    height: 55px;
+    margin: 2.5px;
+    float: left;
+    text-align: center;
+    background-color: rgba(43, 43, 85, 0.1);
+    position: relative;
+}
+.small-usage img {
+    margin-top: 8px;
+}
+.small-usage div {
+    position: absolute;
+    bottom: 2px;
+    font-size: 0.8em;
+    width: 100%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+.small-usage:hover, .large-usage:hover {
+    background-color: rgba(43, 43, 85, 0.3);
+}
+
+#footer {
+	font-size: .8em;
+	text-align: center;
+}
+
+

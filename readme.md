@@ -1,10 +1,19 @@
 What's new:
-- Created Featured Pokemon section
-- Just used the text from their OU analysis and art from Smeargle's Studio
-- Updated the RMT badge section.
+Created Featured Pokemon section
+- Currently, it just uses the text from the OU analysis and some art from Smeargle's Studio
+- Long term: use JS to provide a random pokemon when page loads
+- keep a list of mons, links to art, and artist to choose from
+- pull overview from dex analysis
+
+Added some places to feature art from Smogon's artists
+- one always displays at the bottom of the page (below the ranks section on desktop/tablet)
+- another is only visible on desktop and displays below the twitter feed
+
+Filled in the badge section.
+- pulled most of the info from forum headers and main threads
 
 From v2:
-- Completely re-did the design template
+Completely re-did the design template
 - uses w3.css to facilitate a responsive columnar layout.
 - three columns on desktop
 - two columns on tablet (~990px cutoff)

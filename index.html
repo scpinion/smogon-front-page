@@ -68,8 +68,11 @@
     
     <!-- ads and padding for bottom of logo -->
     <div class="w3-row">
-      <div class="w3-col w3-hide-small" style="width:180px; height:100px;"></div>
-      <div class="w3-rest w3-green" style="height: 100px;"><div>ads</div></div>
+      <div class="w3-col l2 m4 w3-hide-small" style="height:100px;"><!-- Logo takes up this space --></div>
+      <div class="w3-col l10 m8 s12" style="height: 100px; overflow-y: visible;">
+        <div class="w3-col l8 m12 s12 w3-green w3-center" style="height: 100px;">ads</div>
+        <div class="w3-col l4 m4 w3-hide-small w3-hide-medium" style="text-align: center; height: 100px; overflow-y: visible;"><img style="height: 120%; width: auto;" src="media/cosmog.png" alt="cosmog" /></div>
+      </div>
     </div>
     <div style="margin-bottom: 20px; width: 100%"></div>
     
@@ -111,11 +114,12 @@
 	  <div class="w3-container w3-col l5 m12">
       <h1>Learn, Compete, Contribute!</h1>
 			<hr />
+			
       <ul class="w3-navbar">
         <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
           <a class="w3-padding-large" href="javascript:void(0)" onclick="toggleMobileNav('badgeNavSmall')" title="Toggle Navigation Menu">Select a Section&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-bars"></i></a>
         </li>
-        <li><a class="badgeButton w3-hide-small" onclick="openSectionInfo(event, 'tiers')"><img class="badge" src="http://cdn.bulbagarden.net/upload/6/62/Feather_Badge.png" alt="feather badge" title="Official Metagames"/></a></li>
+        <li><a class="badgeButton w3-hide-small" onclick="openSectionInfo(event, 'tiers')"><img class="badge" src="media/feather-badge.png" alt="feather badge" title="Official Metagames"/></a></li>
         <li><a class="badgeButton w3-hide-small" onclick="openSectionInfo(event, 'wifi')"><img class="badge" src="http://cdn.bulbagarden.net/upload/8/8c/Forest_Badge.png" alt="forest badge" title="WiFi / In-Game"/></a></li>
         <li><a class="badgeButton w3-hide-small" onclick="openSectionInfo(event, 'tours')"><img class="badge" src="http://cdn.bulbagarden.net/upload/1/12/Volcano_Badge.png" alt="Volcano badge" title="Tournaments"/></a></li>
         <li><a class="badgeButton w3-hide-small" onclick="openSectionInfo(event, 'rmt')"><img class="badge" src="http://cdn.bulbagarden.net/upload/b/b9/Storm_Badge.png" alt="Storm badge" title="Rate My Team"/></a></li>
@@ -140,92 +144,103 @@
         </ul>
       </div>
       
-      <div id="tiers" class="w3-container site-section w3-animate-opacity">
-        <h2 class="badge-nav-header">Featured Threads from Official Metagames</h2>
-        <ul style="font-size:0.9em; margin-top: 0px;">
-						<li>OU: <a href="http://www.smogon.com/forums/threads/3585600">Sablenite Suspect</a></li>
-						<li>UU: <a href="http://www.smogon.com/forums/threads/3582473">Stage 7.3 - Baton Pass Suspect</a></li>
-						<li>RU: <a href="http://www.smogon.com/forums/threads/3583022/">Stage 19 (Dugtrio Banned)</a></li>
-						<li>NU: <a href="http://www.smogon.com/forums/threads/3576747/">Stage 15 - The Climb</a></li>
-						<li>PU: <a href="http://www.smogon.com/forums/threads/3586575/">Stage 10</a></li>
-						<li>Ubers: <a href="http://www.smogon.com/forums/threads/3535106/">Viability Rankings</a></li>
-						<li>LC: <a href="http://www.smogon.com/forums/threads/3577966/">Metagame Discussion</a></li>
-						<li>BS: <a href="http://www.smogon.com/forums/threads/3583923/">Singles Metagame Discussion</a></li>
-						<li>DOU: <a href="http://www.smogon.com/forums/threads/3580680/">Stage 5</a></li>
-						<li>VGC: <a href="http://www.smogon.com/forums/threads/3583926/">VGC '17 Discussion</a></li>
-					</ul>
-      </div>
-      
-      <div id="rmt" class="w3-container site-section w3-animate-opacity">
-        <h2 class="badge-nav-header"><a href="http://www.smogon.com/forums/forums/52/">Rate My Team</a></h2>
-        <div class="detail">Get your teams rated by Smogon's raters, but make sure you read the <a href="http://www.smogon.com/forums/threads/3584611/">forum rules</a> first!</div>
-        <div class="section"><a href="http://www.smogon.com/forums/forums/261/">OverUsed Teams</a></div>
-        <div class="detail">Get your OU teams rated here!</div>
-        <div class="section"><a href="http://www.smogon.com/forums/forums/292/">Other Teams</a></div>
-        <div class="detail">UU, RU, NU, PU, LC, Ubers, Doubles, VGC, Other Metagames and Battle Spot teams rated here!</div>
-        <div class="section"><a href="http://www.smogon.com/forums/forums/314/">Team Showcase</a></div>
-        <div class="detail">Successful and well-presented teams are showcased here!</div>
-        <div class="section"><a href="http://www.smogon.com/forums/forums/92/">Rating Activities</a></div>
-        <div class="detail">Learn from our team raters and participate in fun activities!</div>
-        <div class="section"><a href="http://www.smogon.com/forums/forums/84/">RMT Archive</a></div>
-        <div class="detail">An archive of great teams. Read them!</div>
-      </div>
-      
-      <div id="wifi" class="w3-container site-section w3-animate-opacity">
-        <p><strong></strong></p>
-        <h2 class="badge-nav-header"><a href="http://www.smogon.com/forums/forums/52/">Wi-Fi / In-Game</a></h2>
-        <div class="detail">Discuss the Pok&eacute;mon games with us, or come trade, battle, and learn more about capturing and breeding the top percentage of Pok&eacute;mon.</div>
-        <div class="section"><a href="http://www.smogon.com/forums/forums/205/">In-Game Discussion</a></div>
-        <div class="detail">Come discuss the Pok&eacute;mon games. We have a special section dedicated to <a href="http://www.smogon.com/forums/forums/374/">Pok&eacute;mon Sun and Moon</a>!</div>
-        <div class="section"><a href="http://www.smogon.com/forums/forums/290/">Battle Requests</a></div>
-        <div class="detail">Find other people to battle with over Wi-Fi.</div>
-        <div class="section"><a href="http://www.smogon.com/forums/forums/53/">Trade Threads and Breeding Requests</a></div>
-        <div class="detail">Exchange Pok&eacute;mon with other Smogon members.</div>
-        <div class="section"><a href="http://www.smogon.com/forums/forums/81/">Wi-Fi Tournaments</a></div>
-        <div class="detail">Host your own Wi-Fi tournament here.</div>
-      </div>
-      
-      <div id="tours" class="w3-container site-section w3-animate-opacity">
-        <h2 class="badge-nav-header"><a href="http://www.smogon.com/forums/forums/34/">Tournaments</a></h2>
-        <div class="detail">Come challenge Smogon's best in one of our many tournaments!</div>
-        <div class="section">Current Official Tournament: <a href="http://www.smogon.com/forums/forums/49/">Smogon Tour 22</a></div>
-        <div class="detail">Smogon Tour is our Live Tournament series. It is one of the most popular and prestigious events we host!</div>
-        <div class="section"><a href="http://www.smogon.com/forums/forums/351/">Circuit Tours</a></div>
-        <div class="detail">All our semi-official tournaments are hosted here. New events start seasonally.</div>
-        <div class="section"><a href="http://www.smogon.com/forums/threads/3561434/">Major Tournament Schedule</a></div>
-        <div class="detail">We host many major tournaments throughout the year. Make sure you don't miss the opportunity to compete!</div>
-        <div class="section"><a href="http://www.smogon.com/forums/threads/34/">Other Tournaments</a></div>
-        <div class="detail">We also host many other tournaments. New tours are posted regularly, so check in often!</div>
-      </div>
-      
-      <div id="cap" class="w3-container site-section w3-animate-opacity">
-        <p><strong>Create-A-Pok&eacute;mon Project</strong></p>
-        <p>Aenean vitae lacus dictum, venenatis nibh quis, pulvinar ex. Morbi nec blandit felis. Praesent at purus vitae nunc laoreet faucibus at eget ligula. Aenean vitae lacus dictum, venenatis nibh quis, pulvinar ex. Morbi nec blandit felis. Praesent at purus vitae nunc laoreet faucibus at eget ligula.</p>
-      </div>
-      
-      <div id="tfp" class="w3-container site-section w3-animate-opacity">
-        <p><strong>Smogon's Flying Press</strong></p>
-        <p>Aenean vitae lacus dictum, venenatis nibh quis, pulvinar ex. Morbi nec blandit felis. Praesent at purus vitae nunc laoreet faucibus at eget ligula. Aenean vitae lacus dictum, venenatis nibh quis, pulvinar ex. Morbi nec blandit felis. Praesent at purus vitae nunc laoreet faucibus at eget ligula.</p>
-      </div>
-      
-      <div id="b101" class="w3-container site-section w3-animate-opacity">
-        <p><strong>Battling 101</strong></p>
-        <p>Aenean vitae lacus dictum, venenatis nibh quis, pulvinar ex. Morbi nec blandit felis. Praesent at purus vitae nunc laoreet faucibus at eget ligula. Aenean vitae lacus dictum, venenatis nibh quis, pulvinar ex. Morbi nec blandit felis. Praesent at purus vitae nunc laoreet faucibus at eget ligula.</p>
-      </div>
-      
-      <div id="om" class="w3-container site-section w3-animate-opacity">
-        <p><strong>Other Metagames</strong></p>
-        <div class="detail">In addition to the <a href="http://www.smogon.com/forums/forums/other-metagames.206/?prefix_id=125">permanent OMs</a>, the OM section features two metagames each month&mdash;one decided upon by the community, the other chosen by the section leaders.</div>
-        <div class="w3-container w3-center w3-col l6 m6 s12">
-          <div class="section" style="margin-bottom: 10px;"><a href="http://www.smogon.com/forums/threads/3541792/" target="_blank">OM of the Month</a></div>
-          <a href="http://www.smogon.com/forums/threads/3547279/" target="_blank"><img class="om-image" src="media/stabmons-logo.png" alt="OMotM"></a>
-				  <div class="detail">STABmons is a metagame where Pokemon have access to moves that match their type even if they can't normally learn them!</div>
+      <div class="w3-container w3-col l12 m8 s12">
+        <div id="tiers" class="w3-container site-section w3-animate-opacity">
+          <h2 class="badge-nav-header">Featured Threads from Official Metagames</h2>
+          <ul style="font-size:0.9em; margin-top: 0px;">
+  						<li>OU: <a href="http://www.smogon.com/forums/threads/3585600">Sablenite Suspect</a></li>
+  						<li>UU: <a href="http://www.smogon.com/forums/threads/3582473">Stage 7.3 - Baton Pass Suspect</a></li>
+  						<li>RU: <a href="http://www.smogon.com/forums/threads/3583022/">Stage 19 (Dugtrio Banned)</a></li>
+  						<li>NU: <a href="http://www.smogon.com/forums/threads/3576747/">Stage 15 - The Climb</a></li>
+  						<li>PU: <a href="http://www.smogon.com/forums/threads/3586575/">Stage 10</a></li>
+  						<li>Ubers: <a href="http://www.smogon.com/forums/threads/3535106/">Viability Rankings</a></li>
+  						<li>LC: <a href="http://www.smogon.com/forums/threads/3577966/">Metagame Discussion</a></li>
+  						<li>BS: <a href="http://www.smogon.com/forums/threads/3583923/">Singles Metagame Discussion</a></li>
+  						<li>DOU: <a href="http://www.smogon.com/forums/threads/3580680/">Stage 5</a></li>
+  						<li>VGC: <a href="http://www.smogon.com/forums/threads/3583926/">VGC '17 Discussion</a></li>
+  					</ul>
         </div>
-        <div class="w3-container w3-center w3-col l6 m6 s12">
-          <div class=section><a href="http://www.smogon.com/forums/threads/3541792/" target="_blank">Leader's Choice</a></div>
-          <!--<a href="http://www.smogon.com/forums/threads/3547279/" target="_blank"><img class="om-image" src="media/stabmons-logo.png" alt="OMotM"></a>-->
-				  <div class="detail">No Leader's Choice this month</div>
+        
+        <div id="rmt" class="w3-container site-section w3-animate-opacity">
+          <h2 class="badge-nav-header"><a href="http://www.smogon.com/forums/forums/52/">Rate My Team</a></h2>
+          <div class="detail">Get your teams rated by Smogon's raters, but make sure you read the <a href="http://www.smogon.com/forums/threads/3584611/">forum rules</a> first!</div>
+          <div class="section"><a href="http://www.smogon.com/forums/forums/261/">OverUsed Teams</a></div>
+          <div class="detail">Get your OU teams rated here!</div>
+          <div class="section"><a href="http://www.smogon.com/forums/forums/292/">Other Teams</a></div>
+          <div class="detail">UU, RU, NU, PU, LC, Ubers, Doubles, VGC, Other Metagames and Battle Spot teams rated here!</div>
+          <div class="section"><a href="http://www.smogon.com/forums/forums/314/">Team Showcase</a></div>
+          <div class="detail">Successful and well-presented teams are showcased here!</div>
+          <div class="section"><a href="http://www.smogon.com/forums/forums/92/">Rating Activities</a></div>
+          <div class="detail">Learn from our team raters and participate in fun activities!</div>
+          <div class="section"><a href="http://www.smogon.com/forums/forums/84/">RMT Archive</a></div>
+          <div class="detail">An archive of great teams. Read them!</div>
         </div>
+        
+        <div id="wifi" class="w3-container site-section w3-animate-opacity">
+          <p><strong></strong></p>
+          <h2 class="badge-nav-header"><a href="http://www.smogon.com/forums/forums/52/">Wi-Fi / In-Game</a></h2>
+          <div class="detail">Discuss the Pok&eacute;mon games with us, or come trade, battle, and learn more about capturing and breeding the top percentage of Pok&eacute;mon.</div>
+          <div class="section"><a href="http://www.smogon.com/forums/forums/205/">In-Game Discussion</a></div>
+          <div class="detail">Come discuss the Pok&eacute;mon games. We have a special section dedicated to <a href="http://www.smogon.com/forums/forums/374/">Pok&eacute;mon Sun and Moon</a>!</div>
+          <div class="section"><a href="http://www.smogon.com/forums/forums/290/">Battle Requests</a></div>
+          <div class="detail">Find other people to battle with over Wi-Fi.</div>
+          <div class="section"><a href="http://www.smogon.com/forums/forums/53/">Trade Threads and Breeding Requests</a></div>
+          <div class="detail">Exchange Pok&eacute;mon with other Smogon members.</div>
+          <div class="section"><a href="http://www.smogon.com/forums/forums/81/">Wi-Fi Tournaments</a></div>
+          <div class="detail">Host your own Wi-Fi tournament here.</div>
+        </div>
+        
+        <div id="tours" class="w3-container site-section w3-animate-opacity">
+          <h2 class="badge-nav-header"><a href="http://www.smogon.com/forums/forums/34/">Tournaments</a></h2>
+          <div class="detail">Come challenge Smogon's best in one of our many tournaments!</div>
+          <div class="section">Current Official Tournament: <a href="http://www.smogon.com/forums/forums/49/">Smogon Tour 22</a></div>
+          <div class="detail">Smogon Tour is our Live Tournament series. It is one of the most popular and prestigious events we host!</div>
+          <div class="section"><a href="http://www.smogon.com/forums/forums/351/">Circuit Tours</a></div>
+          <div class="detail">All our semi-official tournaments are hosted here. New events start seasonally.</div>
+          <div class="section"><a href="http://www.smogon.com/forums/threads/3561434/">Major Tournament Schedule</a></div>
+          <div class="detail">We host many major tournaments throughout the year. Make sure you don't miss the opportunity to compete!</div>
+          <div class="section"><a href="http://www.smogon.com/forums/threads/34/">Other Tournaments</a></div>
+          <div class="detail">We also host many other tournaments. New tours are posted regularly, so check in often!</div>
+        </div>
+        
+        <div id="cap" class="w3-container site-section w3-animate-opacity">
+          <p><strong>Create-A-Pok&eacute;mon Project</strong></p>
+          <p>Aenean vitae lacus dictum, venenatis nibh quis, pulvinar ex. Morbi nec blandit felis. Praesent at purus vitae nunc laoreet faucibus at eget ligula. Aenean vitae lacus dictum, venenatis nibh quis, pulvinar ex. Morbi nec blandit felis. Praesent at purus vitae nunc laoreet faucibus at eget ligula.</p>
+        </div>
+        
+        <div id="tfp" class="w3-container site-section w3-animate-opacity">
+          <p><strong>Smogon's Flying Press</strong></p>
+          <p>Aenean vitae lacus dictum, venenatis nibh quis, pulvinar ex. Morbi nec blandit felis. Praesent at purus vitae nunc laoreet faucibus at eget ligula. Aenean vitae lacus dictum, venenatis nibh quis, pulvinar ex. Morbi nec blandit felis. Praesent at purus vitae nunc laoreet faucibus at eget ligula.</p>
+        </div>
+        
+        <div id="b101" class="w3-container site-section w3-animate-opacity">
+          <h2 class="badge-nav-header"><a href="http://www.smogon.com/forums/forums/42/">Battling 101</a></h2>
+          <div class="detail">Smogon's tutoring program. Come learn from the best!</div>
+          <div class="section"><a href="http://www.smogon.com/forums/threads/3525783/">Videos for Beginners</a></div>
+          <div class="detail">Learn the basics of competitive battling!</div>
+          <div class="section"><a href="http://www.smogon.com/forums/threads/3558515/">Learning a new metagame</a></div>
+          <div class="detail">A variety of resources for learning Smogon's metagames.</div>
+          <div class="section"><a href="http://www.smogon.com/forums/threads/3579504/">Battling 101 Announcements</a></div>
+          <div class="detail">Stay up to date on the latest developments in B101</div>
+        </div>
+        
+        <div id="om" class="w3-container site-section w3-animate-opacity">
+          <p><strong>Other Metagames</strong></p>
+          <div class="detail">In addition to the <a href="http://www.smogon.com/forums/forums/other-metagames.206/?prefix_id=125">permanent OMs</a>, the OM section features two metagames each month&mdash;one decided upon by the community, the other chosen by the section leaders.</div>
+          <div class="w3-container w3-center w3-col l6 m6 s12">
+            <div class="section" style="margin-bottom: 10px;"><a href="http://www.smogon.com/forums/threads/3541792/" target="_blank">OM of the Month</a></div>
+            <a href="http://www.smogon.com/forums/threads/3547279/" target="_blank"><img class="om-image" src="media/stabmons-logo.png" alt="OMotM"></a>
+  				  <div class="detail">STABmons is a metagame where Pokemon have access to moves that match their type even if they can't normally learn them!</div>
+          </div>
+          <div class="w3-container w3-center w3-col l6 m6 s12">
+            <div class=section><a href="http://www.smogon.com/forums/threads/3541792/" target="_blank">Leader's Choice</a></div>
+            <!--<a href="http://www.smogon.com/forums/threads/3547279/" target="_blank"><img class="om-image" src="media/stabmons-logo.png" alt="OMotM"></a>-->
+  				  <div class="detail">No Leader's Choice this month</div>
+          </div>
+        </div>
+      </div>
+      <div class="w3-container w3-col m4 w3-hide-small w3-hide-large w3-center">
+        <img style="height: auto; width: 90%; margin-top: 15px;" src="media/cosmog.png" alt="cosmog" />
       </div>
     </div>
 	  
@@ -281,7 +296,7 @@
 	  <div id="two-column-break" class="w3-clear"></div>
 	  
 	  <div id="potw" class="w3-container lower-content w3-third">
-	    <h1>Featured Pokemon</h1>
+	    <h1>Featured Pok&eacute;mon</h1>
 			<hr />
 			<div class="">
 			  <h2>Gliscor</h2>

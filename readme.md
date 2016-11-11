@@ -1,6 +1,11 @@
 For those of you looking to help. I'm not particularly great with git, so I much prefer to edit things in my c9 editor without making individual commits. I'll try to push my updates here regularly. 
 
 What's new:
+Added some Cosmog to the design
+
+Adjusted breakpoints in CSS to mesh with the badge selector
+- they are now 1100px and 600px
+
 Created Featured Pokemon section
 - Currently, it just uses the text from the OU analysis and some art from Smeargle's Studio
 - Long term: use JS to provide a random pokemon when page loads

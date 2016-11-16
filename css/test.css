@@ -112,7 +112,7 @@ h1 {
 
 /* Stats */
 #stats {
-	max-height: 285px;
+	height: 285px;
 	overflow: hidden;
 }
 .large-usage {

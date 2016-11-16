@@ -43,4 +43,4 @@ implemented stats section
 
 implemented ranks section
 - requires ladder.php and ladder.js
-- ladders.php just pulls the json from pokemonshowdown.com/ladder/ou.json to prevent issues with cross-domain stuff
+- ladder.php just pulls the json from pokemonshowdown.com/ladder/ou.json to prevent issues with cross-domain stuff
